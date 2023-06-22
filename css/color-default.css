@@ -1,0 +1,107 @@
+/*
+    Default color styles - You can change this colors to any color you want
+*/
+
+/* EMPHASIZED COLOR */
+a:hover,
+h1 span, h2 span, h3 span,
+h4 span, h5 span, h6 span,
+.page-content.dark .wpcf7 .wpcf7-text:focus,
+.page-content.dark .wpcf7 .wpcf7-textarea:focus,
+#header .navbar-default .navbar-nav > li > a:hover,
+#header .navbar-default .navbar-nav > .current-menu-item > a,
+#header .dropdown-menu > li.current-menu-item > a,
+#header .navbar-default .navbar-nav > li>a:hover, 
+#header .navbar-default .navbar-nav > li >a:focus, 
+#header .dropdown-menu > li > a:hover, 
+#header .dropdown-menu > li > a:focus, 
+#header .dropdown.dropdown-submenu > a:hover::after,
+#header .navbar-default .navbar-nav > .current-menu-item > a:before,
+#top-bar-wrapper .social-links li .fa,
+strong a,
+#copyright-container a:hover,
+.feature-box.style-1 a.read-more span,
+.quote p.author-name,
+a.read-more span,
+.custom-heading a:hover h4,
+.feature-box.style-1 .feature-body a:hover h4,
+.pi-latest-posts .post-date i,
+.pi-latest-post .post-details .fa,
+#accordion .panel-title .indicator,
+.tp-big-heading span,
+.dark .breadcrumb>.active,
+.dark .breadcrumb>li>a:hover,
+.widget_nav_menu ul li span:hover,
+.widget_nav_menu ul li .fa,
+.fa-ul li:before,
+.btn-link:hover,
+.widget_nav_menu ul li a:hover span,
+.breadcrumb.filters li.active a,
+.breadcrumb.filters li a:hover,
+.post-list .blog-post .icon-container i,
+.post-single .blog-post .icon-container i,
+.post-list .blog-post .post-body h3:hover,
+.widget_recent_entries ul > li a .fa,
+.widget_recent_entries ul > li a:hover p,
+.media .comment-reply-link:hover,
+.media .comment-reply-link:hover .fa,
+.dark .btn-link,
+.post-details h4:hover,
+.post-details h6:hover{
+    color: #ffcc00;
+}
+
+/* EMPHASIZED COLOR - HOVER */
+.dark .btn-link span:hover,
+#top-bar-wrapper .social-links li:hover .fa,
+.btn-link:focus {
+    color: #d8eeff;
+}
+
+/* EMPHASIZED BACKGROUND COLOR */
+.search-submit,
+.custom-heading::after, 
+.feature-box.style-2 a.read-more,
+.navbar-default .navbar-toggle,
+.widget_tag_cloud .tagcloud a:hover {
+    background-color: #ffcc00;
+}
+
+/* EMPHASIZED BACKGROUND COLOR - HOVER*/
+.search-submit:hover,
+.feature-box.style-2 a.read-more:hover,
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: #c59a00;
+}
+
+/* EMPHASIZED BACKGROUND COLOR - SECONDARY*/
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:focus {
+    background-color: #c59a00;
+}
+
+
+
+/*  BORDERS
+============================================================================= */
+
+/* EMPHASIZED BORDER COLOR */
+#testimonial-carousel .testimonial-background,
+.wpcf7-text:focus,
+.wpcf7-select:focus,
+.wpcf7-textarea:focus,
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle {
+    border-color: #ffcc00;
+}
+
+/* EMPHASIZED TOP BORDER COLOR */
+#testimonial-carousel .testimonial-background:after {
+    border-top-color: #001b50;
+}
+
+/* SVG CUSTOM COLOR */
+.svg-black .st0{
+    fill: #b82222;
+}

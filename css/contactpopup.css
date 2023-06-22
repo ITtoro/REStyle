@@ -1,0 +1,57 @@
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(50, 212, 6, 0.564);
+	z-index: 100;
+	display: none;
+}
+
+.popup {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	border-radius: 20px;
+	transform: translate(-50%, -50%);
+	padding: 40px;
+	background-color: #FFF;
+}
+
+.close-popup {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+}
+
+.no-scroll
+{
+	overflow: hidden;
+}
+
+.close-popup:before {
+	content: '';
+	background-color: #000;
+	position: absolute;
+	height: 1px;
+	width: 31px;
+	top: 11px;
+	left: -4px;
+	transform: rotate(-45deg);
+}
+
+.close-popup:after {
+	content: '';
+	background-color: #000;
+	position: absolute;
+	height: 1px;
+	width: 31px;
+	top: 11px;
+	transform: rotate(45deg);
+	left: -4px;
+}
